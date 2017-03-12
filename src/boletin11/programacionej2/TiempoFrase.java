@@ -15,6 +15,8 @@ import javax.swing.JOptionPane;
  */
 public class TiempoFrase {
     
+    String parida;
+    
     public void tiempoFrase (){
         
         Instant ahora = Instant.now();
@@ -24,5 +26,6 @@ public class TiempoFrase {
         
         System.out.println("Ha tardado en escribir la frase " + tiempo.getSeconds() + " segundos");
     }
+    
     
 }
